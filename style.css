@@ -12,7 +12,10 @@ html,body{
 
 @font-face {
     font-family: 'Kajiro';
-    src: url('path/to/kajiro.woff2') format('woff2');
+    src: url('fonts/Kajiro-Regular.woff2') format('woff2'),
+         url('fonts/Kajiro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     font-display: swap;
 }
 
